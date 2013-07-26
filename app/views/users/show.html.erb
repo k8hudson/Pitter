@@ -1,0 +1,4 @@
+<h1><%= @user.name %> is using Pitter - See <%= @user.handle %>'s pats!</h1>
+<% @user_pats.each do |pat| %>
+<div><%= link_to pat.content, pat_path(pat) %></div>
+<% end %>

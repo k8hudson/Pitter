@@ -1,0 +1,24 @@
+<h1>Welcome to Pitter!</h1>
+<h3>A rainy social sharing site.</h3>
+
+<img src= 'http://31.media.tumblr.com/f50e9fd50776820937215d90de50b7c4/tumblr_mk3dxlV4Xn1s5vcemo1_500.gif'>
+
+<%= form_for @user do |f| %>
+<div>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+</div>
+
+<div>
+	<%= f.label :email %>
+	<%= f.text_field :email %>
+</div>
+
+<div>
+	<%= f.label :handle %>
+	<%= f.text_field :handle %>
+</div>
+
+<%= f.submit %>
+<% end %>
+

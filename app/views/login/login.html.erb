@@ -1,0 +1,7 @@
+<h1>Log in to Pitter:</h1>
+<%= form_for @user do |f| %>
+<div>
+	Email: <%= f.text_field :email %>
+</div>
+<%= f.submit "Log in" %> 
+<% end %>

@@ -1,0 +1,3 @@
+Welcome to Pitter!
+Pitter is a social sharing app similar to Twitter.
+Tweets are called Pats (singular == pat).

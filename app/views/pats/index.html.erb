@@ -1,0 +1,5 @@
+<h1>My Pats</h1>
+
+<% Pat.all.each do |pat| %>
+<div><%= link_to pat.content, pat_path(pat) %> <em> This pat is <%= pat.content.length %> characters long. <%= 140 - pat.content.length %> characters remain.</em></div>
+<% end %>
